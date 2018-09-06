@@ -1,4 +1,4 @@
-package com.cn.hnust.pojo;
+package com.yzh.mdw.pojo;
 
 public class User {
     private Integer id;

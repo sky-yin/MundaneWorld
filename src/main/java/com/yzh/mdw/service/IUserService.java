@@ -1,6 +1,6 @@
-package com.cn.hnust.service;
+package com.yzh.mdw.service;
 
-import com.cn.hnust.pojo.User;
+import com.yzh.mdw.pojo.User;
 
 public interface IUserService {
 	public User getUserById(int userId);

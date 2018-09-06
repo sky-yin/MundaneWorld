@@ -3,17 +3,14 @@ package org.zsl.testmybatis;
 import javax.annotation.Resource;
 
 import org.apache.log4j.Logger;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.alibaba.fastjson.JSON;
-import com.cn.hnust.pojo.User;
-import com.cn.hnust.service.IUserService;
+import com.yzh.mdw.pojo.User;
+import com.yzh.mdw.service.IUserService;
 
 @RunWith(SpringJUnit4ClassRunner.class)		//表示继承了SpringJUnit4ClassRunner类
 @ContextConfiguration(locations = {"classpath:spring-mybatis.xml"})

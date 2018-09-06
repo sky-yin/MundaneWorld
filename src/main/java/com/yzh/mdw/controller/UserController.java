@@ -1,14 +1,14 @@
-package com.cn.hnust.controller;
+package com.yzh.mdw.controller;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
+import com.yzh.mdw.service.IUserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.cn.hnust.pojo.User;
-import com.cn.hnust.service.IUserService;
+import com.yzh.mdw.pojo.User;
 
 @Controller
 @RequestMapping("/user")
