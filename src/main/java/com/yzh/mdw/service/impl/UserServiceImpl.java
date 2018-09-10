@@ -12,6 +12,7 @@ import com.yzh.mdw.pojo.User;
 public class UserServiceImpl implements IUserService {
 	@Resource
 	private IUserDao userDao;
+
 	@Override
 	public User getUserById(int userId) {
 		// TODO Auto-generated method stub
