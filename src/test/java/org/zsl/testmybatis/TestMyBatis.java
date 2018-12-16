@@ -13,8 +13,7 @@ import com.yzh.mdw.pojo.User;
 import com.yzh.mdw.service.IUserService;
 
 @RunWith(SpringJUnit4ClassRunner.class)		//表示继承了SpringJUnit4ClassRunner类
-@ContextConfiguration(locations = {"classpath:spring-mybatis.xml"})
-
+//@ContextConfiguration(locations = {"classpath:spring-mybatis.xml"})
 public class TestMyBatis {
 	private static Logger logger = Logger.getLogger(TestMyBatis.class);
 //	private ApplicationContext ac = null;
@@ -32,6 +31,7 @@ public class TestMyBatis {
 		User user = userService.getUserById(1);
 		// System.out.println(user.getUserName());
 		// logger.info("值："+user.getUserName());
-		logger.info(JSON.toJSONString(user));
+//		logger.info(JSON.toJSONString(user));
+		System.out.println("1");
 	}
 }

@@ -1,6 +1,9 @@
+target
 target/
+.idea
 .idea/
-
+logs
+logs/
 
 ### STS ###
 .apt_generated
